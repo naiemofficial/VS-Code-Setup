@@ -63,8 +63,8 @@
 	<li>Create a folder with the name <code>.vscode</code> in your VS Code workspace. If the folder already exists then nothing to do. <sub><sup>(It's not necessary to keep <code>input.txt</code>, <code>output.txt</code> file in the <code>.vscode</code> folder.)</sup></sub> 
 	<li>Create a file with the name <code>input.txt</code> inside <code>.vscode</code> folder.</li>
 	<li>Create a file with the name <code>output</code> inside <code>.vscode</code> folder.</li>
-	<li>Create a file with the name <code>.settings.json</code> inside the <code>.vscode</code> folder. If the file already exists then no need to create</li>
-	<li>In the <code>.settings.json</code> and go to <code>Settings</code>, then open the <code>Settings</code> as JSON<br><br></li>
+	<li>Create a file with the name <code>settings.json</code> inside the <code>.vscode</code> folder. If the file already exists then no need to create</li>
+	<li>In the <code>settings.json</code> and go to <code>Settings</code>, then open the <code>Settings</code> as JSON<br><br></li>
 	<li>Find the object that named <code>code-runner.executorMap</code>, if the object isn't there then add it <code>code-runner.executorMap</code></li>
 	<li>find the object-key named <code>cpp</code> <sub><sup>(as we're doing this c++ program)</sup></sub>, if the object-key isn't there then add it <code>"cpp": value</code><br><br></li>
 	<li>Now edit the object-key value, copy the below code and paste it after <b>executable_filename</b> or before ending the JSON value wrapping quotations  </li>
